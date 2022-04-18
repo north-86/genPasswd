@@ -15,9 +15,9 @@ if (countPwd == 0):
     sys.exit('Really?')
 elif (0 < countPwd <= 20):
     print('Easy password -->\n')
-elif (20 < countPwd <= 100):
+elif (20 < countPwd <= 50):
     print('Medium password -->\n')
-elif (100 < countPwd < 1625):
+elif (50 < countPwd < 217):
     print('Complex password -->\n')
 else:
     sys.exit('Come on! And you will remember this password:))')
@@ -30,7 +30,7 @@ seq3 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o
 
 seq4 = ['_', '&', '#', '@', '$', '?']
 
-seqTotal = (seq1 * 20) + (seq2 * 26) + (seq3 * 26) + (seq4 * 12)
+seqTotal = (seq1 * 3) + (seq2 * 3) + (seq3 * 3) + (seq4 * 5)
 
 seqPassword = random.sample(seqTotal, countPwd)
 
