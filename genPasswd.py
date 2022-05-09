@@ -38,3 +38,4 @@ for i in seqPassword:
     print(i, sep='', end='')
 
 print('\n\nDone')
+input()
